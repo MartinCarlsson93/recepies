@@ -13,7 +13,7 @@
 }
 
 body {
-  background-color: #f6eedf;
+  background-color: #f5f5dc;
 }
 
 .searchBar {
@@ -34,7 +34,7 @@ nav {
   padding-right: 20px;
   height: 5rem;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  background: #d63447;
+  background: #d9b382;
   color: white;
   margin-bottom: 2rem;
 }
@@ -56,7 +56,7 @@ nav {
 }
 
 .instructions {
-  border: 1px solid lightgray;
+  border: 1px solid darkgray;
   margin-top: 1rem;
   padding: 1rem;
   max-width: 450px;
@@ -74,7 +74,7 @@ nav {
   padding-right: 20px;
   height: 5rem;
   box-shadow: 0 1px 8px #ddd;
-  background: #d63447;
+  background: #d9b382;
   margin-top: 2rem;
 }
 
