@@ -1,7 +1,7 @@
 function RecipeCard({ name, img, id }) {
   return (
     <>
-      <a href={`http://localhost:3000/Recipes/${id}`}>
+      <a href={`/Recipes/${id}`}>
         <div className="box">
           <div>
             <div className="imgDiv">
