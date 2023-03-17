@@ -15,12 +15,16 @@ jobs:
       # Downloads a copy of the code in your repository before running CI tests.
       - name: Check out repository code
         uses: actions/checkout@v3
+        working-directory: my-app
       - uses: actions/setup-node@v3
+        working-directory: my-app
         with:
           node-version: "lts/*"
 
       - name: Install dependencies
+        working-directory: my-app
         run: npm ci
 
       - name: Run unit  tests
+        working-directory: my-app
         run: npm run test

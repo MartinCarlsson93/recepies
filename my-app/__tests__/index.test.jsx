@@ -12,7 +12,7 @@ describe("Main", () => {
       })
     );
     render(<Main />);
-    const heading = screen.getByText("All recipesasdasasd");
+    const heading = screen.getByText("All recipes");
     expect(heading).toBeInTheDocument();
   });
 });
